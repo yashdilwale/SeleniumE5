@@ -3,11 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.crm.selenium.orangeHrm.Basic.BasicLuanch">
+      <class name="com.crm.selenium.orangeHrmfunctional.LoginModule">
         <methods>
-          <include name="name"/>
+          <include name="openBrowser"/>
+          <include name="close"/>
+          <include name="tc_002"/>
+          <include name="tc_001"/>
         </methods>
-      </class> <!-- com.crm.selenium.orangeHrm.Basic.BasicLuanch -->
+      </class> <!-- com.crm.selenium.orangeHrmfunctional.LoginModule -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

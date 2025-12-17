@@ -1,17 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[onStart]]>
+    </line>
+    <line>
+      <![CDATA[tc_001is onTestStart]]>
+    </line>
+    <line>
+      <![CDATA[tc_002is onTestStart]]>
+    </line>
   </reporter-output>
-  <suite started-at="2025-12-12T16:04:55 IST" name="Default suite" finished-at="2025-12-12T16:04:55 IST" duration-ms="72">
+  <suite started-at="2025-12-17T17:28:04 IST" name="Default suite" finished-at="2025-12-17T17:28:34 IST" duration-ms="30128">
     <groups>
     </groups>
-    <test started-at="2025-12-12T16:04:55 IST" name="Default test" finished-at="2025-12-12T16:04:55 IST" duration-ms="72">
-      <class name="com.crm.selenium.PomStructureLogIn.AdminPom">
-        <test-method signature="name()[pri:0, instance:com.crm.selenium.PomStructureLogIn.AdminPom@77888435]" started-at="2025-12-12T16:04:55 IST" name="name" finished-at="2025-12-12T16:04:55 IST" duration-ms="20" status="PASS">
+    <test started-at="2025-12-17T17:28:04 IST" name="Default test" finished-at="2025-12-17T17:28:34 IST" duration-ms="30128">
+      <class name="com.crm.selenium.orangeHrmfunctional.LoginModule">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.crm.selenium.orangeHrmfunctional.LoginModule@c730b35]" started-at="2025-12-17T17:28:04 IST" name="openBrowser" finished-at="2025-12-17T17:28:24 IST" duration-ms="19637" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- name -->
-      </class> <!-- com.crm.selenium.PomStructureLogIn.AdminPom -->
+        </test-method> <!-- openBrowser -->
+        <test-method signature="tc_001()[pri:0, instance:com.crm.selenium.orangeHrmfunctional.LoginModule@c730b35]" started-at="2025-12-17T17:28:24 IST" name="tc_001" finished-at="2025-12-17T17:28:25 IST" duration-ms="835" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[tc_001is onTestStart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc_001 -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.crm.selenium.orangeHrmfunctional.LoginModule@c730b35]" started-at="2025-12-17T17:28:25 IST" name="close" finished-at="2025-12-17T17:28:25 IST" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.crm.selenium.orangeHrmfunctional.LoginModule@c730b35]" started-at="2025-12-17T17:28:25 IST" name="openBrowser" finished-at="2025-12-17T17:28:30 IST" duration-ms="5281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="tc_002()[pri:0, instance:com.crm.selenium.orangeHrmfunctional.LoginModule@c730b35]" started-at="2025-12-17T17:28:30 IST" name="tc_002" finished-at="2025-12-17T17:28:34 IST" duration-ms="3577" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[tc_002is onTestStart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc_002 -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.crm.selenium.orangeHrmfunctional.LoginModule@c730b35]" started-at="2025-12-17T17:28:34 IST" name="close" finished-at="2025-12-17T17:28:34 IST" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.crm.selenium.orangeHrmfunctional.LoginModule -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

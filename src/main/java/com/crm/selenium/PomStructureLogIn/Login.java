@@ -28,6 +28,9 @@ public class Login {
 	public void getUsername(String data) {
 		username.sendKeys(data);
 	}
+	public WebElement getwebUsername() {
+		return username ;
+	}
 
 	
 
